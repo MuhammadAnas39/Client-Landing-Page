@@ -1,0 +1,116 @@
+.signInContainer {
+  max-width: 28%;
+  background-color: #1b1b1b;
+  border-radius: 15px;
+  border: 1px solid gray;
+  padding: 35px 25px;
+  margin: 84px auto;
+}
+
+.signInFormContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+.signInContainer > p {
+  font-size: 12px;
+  margin-bottom: 20px;
+  margin-top: 6px;
+}
+.signInFormField {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.signInFormField > label {
+  font-family: "Outfit", sans-serif;
+  font-size: 13px;
+}
+.signInFormInputField {
+  width: 100%;
+  border: 1px solid rgb(82, 82, 82);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.signInFormInputField > svg {
+  height: 100%;
+  width: 40px;
+  background-color: #3c3c3c;
+  color: #c0c0c0;
+  padding: 12px;
+  border-radius: 9px 0 0px 9px;
+}
+
+.signInFormInputField > input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.signInFormInputField > textarea {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 100px;
+  color: gray;
+  padding: 10px;
+}
+.signInSubmitBtn {
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #04c953;
+}
+.continueGoogle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.line {
+  height: 1px;
+  flex-grow: 1;
+  background-color: rgb(108, 108, 108);
+}
+
+.left-line {
+  margin-right: 12px;
+}
+
+.right-line {
+  margin-left: 12px;
+}
+.googleSignIn {
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  color: rgb(23, 23, 23);
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.dontHaveAccountDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 5px 0;
+}
+.dontHaveAccountDiv > span {
+  color: #04c953;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .signInContainer {
+    max-width: 95%;
+  }
+}

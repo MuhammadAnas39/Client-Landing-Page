@@ -1,0 +1,24 @@
+.Circle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, #4caf50, #408040);
+  border-radius: 50%;
+  opacity: 0.1;
+  filter: blur(60px);
+}
+
+.Circle.right {
+  top: calc(60% - 100px);
+  left: calc(70% - 100px);
+}
+
+.Circle.left {
+  left: 0;
+  top: 50px;
+}
+.Circle.midCenter {
+  left: 35%;
+  top: 70%;
+  /* transform: translate(-50%, -50%); */
+}

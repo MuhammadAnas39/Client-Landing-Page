@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Outfit&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-family: "Outfit", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+button,
+label {
+  font-family: "Outfit", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+input {
+  font-family: "Outfit", sans-serif;
+  color: white;
+}
+
+p {
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Outfit", sans-serif;
+  letter-spacing: 1px;
+}
+.App {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #101010;
+  color: rgb(205, 205, 205);
+}

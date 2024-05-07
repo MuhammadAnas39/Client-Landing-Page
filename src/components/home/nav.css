@@ -1,0 +1,90 @@
+.navContainer {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+  border-bottom: 2px solid #212121;
+  position: sticky;
+  top: 0;
+  background: #101010;
+  z-index: 1;
+}
+.logo {
+  cursor: pointer;
+}
+.menuContent > a {
+  transition: 0.3s ease-in-out;
+}
+.menuContent > a:hover {
+  color: #00722e;
+}
+
+.menuContent {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.buttonDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.login {
+  padding: 7px 20px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 7px;
+  outline: none;
+  color: white;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.login:hover {
+  background-color: rgb(169, 169, 169);
+  color: rgb(53, 53, 53);
+  border: 1px solid rgb(169, 169, 169);
+}
+.signup {
+  padding: 7px 20px;
+  background-color: #05b44b;
+  border-radius: 7px;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.signup:hover {
+  background-color: #00722e;
+
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 12px;
+  }
+  a {
+    font-size: 12px;
+  }
+  .buttonDiv {
+    gap: 8px;
+  }
+  .login {
+    padding: 5px 12px;
+  }
+  .signup {
+    padding: 5px 12px;
+  }
+  .navContainer {
+    justify-content: space-between;
+  }
+}
